@@ -1,0 +1,64 @@
+/* #Media Queries
+================================================== */
+/* END__ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.banner .container h1{ font-size:48px;}
+.benefits .row [class*="col-"] .button span{ padding:0 5px; font-size:16px;}
+
+
+
+} 
+/* END__ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.banner .container h1{ font-size:48px;}
+.benefits .row [class*="col-"] .button span{ padding:0 5px; font-size:16px;}
+.banner{ position:relative; padding-bottom:50px;}
+.banner:after{ height:300px; width:300px;}
+.banner-img {
+    width: 50%;
+    /* margin-left: auto; */
+    margin-bottom: 30px;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 30px auto;
+}
+.banner .container{left:auto; top:auto; -webkit-transform:translate(0%); -ms-transform:translate(0%); transform:translate(0%); position:relative;}
+.w2  [class*="col-"] +  [class*="col-"]{ margin-top:50px;}
+.w3:after, .w4-inner:after{ left:-30%; right:-30%;}
+} 
+/* END__ */
+
+@media only screen and (max-width: 767px) {
+.header{ padding:20px 5px;}
+.header .logo img, .footer-logo img{ width:100px;}
+.header ul li a{ font-size:14px; line-height:36px; padding:0 16px;}
+.banner{ text-align:center;}
+.banner .container h1{ font-size:30px;}
+.benefits .row [class*="col-"] .button span{ padding:0 5px; font-size:16px;}
+.banner{ position:relative; padding-bottom:50px;}
+.banner:after{ height:300px; width:300px;}
+.banner-img {
+    width: 50%;
+    
+    margin: 30px auto;
+}
+.banner .container{left:auto; top:auto; -webkit-transform:translate(0%); -ms-transform:translate(0%); transform:translate(0%); position:relative;}
+.w2  [class*="col-"] +  [class*="col-"]{ margin-top:50px;}
+.w3:after, .w4-inner:after{ left:-80%; right:-80%;}
+.w4{ padding-bottom:300px;}
+.benefits{ margin-top:50px;}
+.w3 .slider{ padding:0 80px;}
+.owl-next, .owl-prev{ height:70px; width:70px;}
+.owl-next{ right:-70px;}
+.owl-prev{ left:-70px;}
+
+} 
+/* END__ */
+
+@media (max-width: 480px) {
+} 
+/* END__ */
+
